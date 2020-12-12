@@ -24,6 +24,8 @@ And then cd into any of the ofx apps, compile and run - example given for simple
     make
     ./bin/ofxRosSimplePublisher
 
+After that you will need to open another terminal, run roscore for the program to start.
+
 ## Debug
 
 If you want to have the examples elswhere then in <path_to_openframeworks_folder>/apps/myApps/openframeworks_ros_basics/ then you need to edit the OF_ROOT in each Makefile of each ofx app

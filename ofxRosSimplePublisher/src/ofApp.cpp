@@ -2,7 +2,7 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-    chatter_pub = n.advertise<std_msgs::String>("chatter", 1000);
+    pub_ = n_.advertise<std_msgs::String>("chatter", 1000);
 }
 
 //--------------------------------------------------------------
@@ -13,7 +13,7 @@ void ofApp::update(){
     msg.data = ss.str();
 
     ROS_INFO("%s", msg.data.c_str());
-    chatter_pub.publish(msg);
+    pub_.publish(msg);
     ros::spinOnce();
 }
 

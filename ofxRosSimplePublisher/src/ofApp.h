@@ -26,7 +26,7 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
-		ros::NodeHandle n;
-		ros::Publisher chatter_pub ;
+		ros::NodeHandle n_;
+		ros::Publisher pub_ ;
 		
 };

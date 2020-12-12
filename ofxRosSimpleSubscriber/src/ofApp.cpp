@@ -8,7 +8,7 @@ void ofApp::setup(){
 
 //--------------------------------------------------------------
 void ofApp::update(){
-    ros::spin();
+    ros::spinOnce();
 }
 
 void ofApp::chatterCallback(const std_msgs::String::ConstPtr& msg){
