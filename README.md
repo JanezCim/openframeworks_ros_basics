@@ -1,6 +1,6 @@
 # Basic examples of getting ROS to work with Openframeworks
 
-**Currently only the bare bones has been written because I'm updating this as I need it. Please feel free to fork and PR back with extentions!**
+**Currently only the bare bones has been written because I'm updating this as I need it. Please feel free to fork and PR back with extensions!**
 
 ## Tested with 
 Openframeworks 0.11.0
